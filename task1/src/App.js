@@ -7,6 +7,7 @@ import File1 from "./File1";
 import Demo3 from "./Demo3";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./Login";
+import Data from "./Data";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
           <Route path="/" element={<Demo3 />}></Route>
         </Routes>
       </BrowserRouter> */}
-      <Login />
+      {/* <Login /> */}
+      <Data />
     </div>
   );
 }
